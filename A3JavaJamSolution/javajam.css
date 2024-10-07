@@ -4,6 +4,12 @@ body {
        font-family: Tahoma, Arial, sans-serif;
 }
 
+img {
+       border-style: none;
+       max-width: 100%;
+       height: auto;
+}
+
 #wrapper {
        background-color: #FEFAEB;
        margin-left: auto;
@@ -11,7 +17,7 @@ body {
        width: 80%;
 }
 
-header {tst
+header {
        background-color: #D2B48C;
        color: #8C3826;
        text-align: center;
@@ -30,9 +36,57 @@ nav {
        text-align: center;
 }
 
+/* Flexbox layout specifically for the menu page */
+.flex-container {
+       display: flex;
+       justify-content: space-between;
+       align-items: flex-start;
+       padding: 20px;
+}
+
+#menu-description {
+       width: 60%;
+}
+
+#menu-image {
+       width: 35%;
+       height: auto;
+       margin-left: 20px;
+}
+
+#hero-image {
+       width: 100%;
+       height: auto;
+       display: block;
+       margin: 0 auto;
+}
+
 footer {
        background-color: #D2B48C;
        font-size: .60em;
        font-style: italic;
        text-align: center;
 }
+
+.event {
+       display: flex;
+       align-items: center;
+       margin-bottom: 20px;
+}
+
+.event img {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+}
+
+h3 {
+  background-color: #D2B48C;
+  padding: 5px;
+  color: #8C3826;
+}
+
+.artist-img {
+  border-radius: 50%;
+}
+     
