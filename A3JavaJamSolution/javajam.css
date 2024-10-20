@@ -1,92 +1,146 @@
+/* Shared Styles for All Pages */
 body {
-       background-color: #FCEBB6;
-       color: #221811;
-       font-family: Tahoma, Arial, sans-serif;
-}
-
-img {
-       border-style: none;
-       max-width: 100%;
-       height: auto;
+    background-color: #FCEBB6;
+    color: #221811;
+    font-family: Tahoma, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 #wrapper {
-       background-color: #FEFAEB;
-       margin-left: auto;
-       margin-right: auto;
-       width: 80%;
+    display: flex;
+}
+
+#sidebar {
+    background-color: #2C1608;
+    color: #FEFAEB;
+    width: 180px;
+    padding: 20px;
+    height: 100vh;
+    position: fixed;
+}
+
+#sidebar a {
+    color: #FEFAEB;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    margin: 20px 0;
+}
+
+#content-area {
+    margin-left: 180px;
+    padding: 20px;
+    width: calc(100% - 180px);
 }
 
 header {
-       background-color: #D2B48C;
-       color: #8C3826;
-       text-align: center;
+    background-color: #D2B48C;
+    color: #8C3826;
+    text-align: center;
+    padding: 20px;
 }
 
 h1 {
-       line-height: 200%;
-}
-
-h2 {
-       color: #8C3826;
-}
-
-nav {
-       font-weight: bold;
-       text-align: center;
-}
-
-/* Flexbox layout specifically for the menu page */
-.flex-container {
-       display: flex;
-       justify-content: space-between;
-       align-items: flex-start;
-       padding: 20px;
-}
-
-#menu-description {
-       width: 60%;
-}
-
-#menu-image {
-       width: 35%;
-       height: auto;
-       margin-left: 20px;
-}
-
-#hero-image {
-       width: 100%;
-       height: auto;
-       display: block;
-       margin: 0 auto;
+    font-size: 2em;
 }
 
 footer {
-       background-color: #D2B48C;
-       font-size: .60em;
-       font-style: italic;
-       text-align: center;
+    background-color: #D2B48C;
+    font-size: .75em;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+/* Specific Styles for Index Page */
+#index-content {
+    background-color: #FFF3D9;
+    padding: 20px;
+    font-size: 1.1em;
+}
+
+#hero-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+}
+
+ul {
+    margin-top: 10px;
+    list-style-type: disc;
+    padding-left: 40px;
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+/* Specific Styles for Menu Page */
+#menu-description {
+    background-color: #FFF3D9;
+    padding: 20px;
+    width: 60%;
+}
+
+main.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.menu-items {
+    margin-top: 20px;
+}
+
+.menu-item {
+    margin-bottom: 20px;
+}
+
+.menu-item h3 {
+    color: #8C3826;
+    font-size: 1.4em;
+}
+
+#menu-image {
+    width: 35%;
+    height: auto;
+    margin-left: 20px;
+}
+
+/* Specific Styles for Music Page */
+#music-content {
+    background-color: #FFF3D9;
+    padding: 20px;
+    font-size: 1.1em;
+}
+
+.event-section {
+    margin-bottom: 20px;
 }
 
 .event {
-       display: flex;
-       align-items: center;
-       margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
 .event img {
-  width: 100px;
-  height: 100px;
-  margin-right: 20px;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
 }
 
 h3 {
-  background-color: #D2B48C;
-  padding: 5px;
-  color: #8C3826;
+    background-color: #D2B48C;
+    padding: 5px;
+    color: #8C3826;
 }
 
 .artist-img {
-  border-radius: 50%;
+    border-radius: 50%;
 }
-     
+   

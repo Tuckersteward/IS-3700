@@ -5,47 +5,49 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your Name &mdash; JavaJam Coffee House</title>
-  <meta name="description" content="JavaJam Coffee Bar Case Study">
-  <meta name="author" content="Cabot Steward">
-  <meta name="keywords" content="Homework, USU, Data Analytics and Information Systems">
-
-  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-
+  <title>JavaJam Coffee Bar Menu</title>
   <link href="javajam.css" rel="stylesheet">
-
 </head>
 
 <body>
   <div id="wrapper">
-    <header>
-      <h1>JavaJam Coffee Bar</h1>
-    </header>
-    <nav>
-      <a href="index.html">Home</a> &nbsp;
-      <a href="menu.html">Menu</a> &nbsp;
-      <a href="music.html">Music</a> &nbsp;
+    <nav id="sidebar">
+      <img src="images/coffeelogo.jpg" alt="JavaJam Logo" class="logo">
+      <a href="index.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="music.html">Music</a>
       <a href="jobs.html">Jobs</a>
     </nav>
-    <main class="flex-container">
-      <div id="menu-description">
-        <h2>Coffee at JavaJam</h2>
-        <dl>
-          <dt><strong>Just Java</strong></dt>
-          <dd>Regular house blend, decaffeinated coffee, or flavor of the day.<br>Endless Cup $3.50</dd>
-          <dt><strong>Cafe au Lait</strong></dt>
-          <dd>House blended coffee infused into a smooth, steamed milk.<br>Single $4.00 Double $5.00</dd>
-          <dt><strong>Iced Cappuccino</strong></dt>
-          <dd>Sweetened espresso blended with icy-cold milk and served in a chilled glass.<br>Single $5.00 Double $6.50</dd>
-        </dl>
-      </div>
-      <img src="images/mugs.jpg" alt="JavaJam Coffee Mugs" id="menu-image">
-    </main>
-    <footer>
-      Copyright &copy; 20XX JavaJam Coffee Bar<br>
-      <a href="mailto:yourfirstname@yourlastname.com">yourfirstname@yourlastname.com</a>
-    </footer>
+    <div id="content-area">
+      <header>
+        <h1>JavaJam Coffee Bar</h1>
+      </header>
+      <main class="flex-container">
+        <div id="menu-description">
+          <h2>Coffee at JavaJam</h2>
+          <p>Indulge in our locally roasted free-trade coffee and enjoy the aroma, the smooth taste, the caffeine! Join our Mug Club and get a 10% discount on each cup of coffee you purchase — ask the barista for details.</p>
+          <div class="menu-items">
+            <div class="menu-item">
+              <h3>Just Java</h3>
+              <p>Regular house blend, decaffeinated coffee, or flavor of the day.<br>Endless Cup $3.50</p>
+            </div>
+            <div class="menu-item">
+              <h3>Cafe au Lait</h3>
+              <p>House blended coffee infused into a smooth, steamed milk.<br>Single $4.00 Double $5.00</p>
+            </div>
+            <div class="menu-item">
+              <h3>Iced Cappuccino</h3>
+              <p>Sweetened espresso blended with icy-cold milk and served in a chilled glass.<br>Single $5.00 Double $6.50</p>
+            </div>
+          </div>
+        </div>
+        <img src="images/mugs.jpg" alt="JavaJam Coffee Mugs" id="menu-image">
+      </main>
+      <footer>
+        Copyright &copy; 2024 JavaJam Coffee Bar<br>
+        <a href="mailto:yourfirstname@yourlastname.com">yourfirstname@yourlastname.com</a>
+      </footer>
+    </div>
   </div>
 </body>
-
 </html>
